@@ -201,15 +201,4 @@
     text-align: center;
   }
 
-  .project-link {
-    display: block;
-    text-align: center;
-    margin: 0 20px;
-  }
-}
-.bg-light {
-  background-color: #4c4c4c!important;
-}
-ul.navbar-nav li{
-  color:#fff;
-}
+ 
