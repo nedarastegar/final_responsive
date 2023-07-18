@@ -1,0 +1,184 @@
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+body {
+  margin: 100px 0 0 0;
+  background-color: #000;
+  color: var(--secondary-color);
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 24px;
+  opacity: 0.7;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.navigation-links a {
+  margin: 20px;
+}
+
+.primary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+.primary-link:hover {
+  color: white;
+}
+
+.secondary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+}
+
+.homepage-link {
+  color: var(--primary-color);
+  text-align: center;
+  display: block;
+}
+
+.about-paragraphs {
+  margin: 30px 0;
+}
+
+.about-paragraphs p {
+  margin: 10px;
+}
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+
+
+.navigation-links a {
+  margin: 20px;
+}
+
+.navigation-links a:hover {
+  color: #202020;
+  background: #fff;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 48px;
+    line-height: 1.5;
+  }
+
+  h2 {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  .project-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
+
+  div.image-shs {
+    display: none;
+  }
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(255, 255, 255);
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
+  color: rgb(255 0 0 / 90%);
+}
+
+.navbar-light .navbar-brand {
+  color: rgb(255 255 255);
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: rgb(255 0 0 / 70%);
+}
+
+footer {
+  text-align: center;
+  color: beige;
+
+}
+
+footer p {
+  margin: 10px 0 0 0 !important;
+  font-size: 13px;
+}
+
+.navbar-toggler {
+  background-color: white;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  border-radius: 1.25rem !important;
+
+}
+
+div.row.mywork h3 {
+  text-align: center;
+}
+
+div.row.mywork a {
+  display: block;
+  width: 85%;
+  margin: 0px auto;
+}
+
+.rounded {
+  border-radius: 1.25rem !important;
+}
