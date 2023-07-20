@@ -107,6 +107,7 @@ p {
   h1 {
     font-size: 48px;
     line-height: 1.5;
+    text-align: center;
   }
 
   h2 {
@@ -126,6 +127,9 @@ p {
 
   div.image-shs {
     display: none;
+  }
+  div.social-media .aboutme{
+    text-align: center;
   }
 }
 
@@ -194,4 +198,12 @@ background-color: #4c4c4c!important;
 }
 ul.navbar-nav li{
 color:#fff;
+}
+
+div.social-media.aboutme{
+  text-align: left;
+}
+
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+  color: rgba(206, 206, 206, 0.9);
 }
